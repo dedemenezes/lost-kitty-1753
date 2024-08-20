@@ -1,24 +1,35 @@
-# README
+### User story
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- As an user I can see all pets (Read)
+- As an user I can see one pet details (Read)
+- As an user I can add a new pet (Create)
+  - Get the form
+  - Receive the form
+- As an user I can update a pet (Update)
+  - Get the form
+  - Receive the form
+- As an user I can remove a pet (Delete)
 
-Things you may want to cover:
 
-* Ruby version
+## Rails flow
 
-* System dependencies
+#### Data Brick
 
-* Configuration
+- Pet
+  - name:string
+  - species:string
+  - address:string
+  - found_on:date
 
-* Database creation
+- Check migrations
+- run the migrations
+- Validations
+- Test crash
 
-* Database initialization
+#### Application Brick
 
-* How to run the test suite
+Think about the user stories
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Route
+2. Controller
+3. View
